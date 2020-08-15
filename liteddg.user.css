@@ -1,0 +1,24 @@
+@-moz-document domain("duckduckgo.com") {
+/* ==UserStyle==
+@name         Dark-lite.DuckDuckGo
+@namespace    github.com/thomasskokholm/dark-lite-duckduckgo
+@homepageURL  https://github.com/thomasskokholm/dark-lite-duckduckgo
+@description  Dark/green for lite.DuckDuckGo.
+@author       thomasskokholm<thomasskokholm <AT> pm <DOT> me>(https://github.com/thomasskokholm)
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+body {
+    background-color: black;
+    color: lightgreen;
+}
+.header {
+    color: lightgreen;
+}
+
+.link-text {
+    color: green;
+    font-style: oblique 10deg;
+    font-weight: bold;
+}
+}
